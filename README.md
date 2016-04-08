@@ -1,6 +1,6 @@
 # DemoWebApp
 
-Check it out at: https://ancient-forest-87393.herokuapp.com/
+Check it out at: https://quiet-scrubland-47674.herokuapp.com/
 
 Before starting:
 - [ ] Create Heroku account (primary language = node) - https://signup.heroku.com/
