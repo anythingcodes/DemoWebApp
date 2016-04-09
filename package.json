@@ -7,8 +7,11 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "ejs": "2.3.3",
-    "express": "4.13.3"
+    "body-parser": "^1.15.0",
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "mongodb": "^2.1.16",
+    "mongoose": "^4.4.11"
   },
   "engines": {
     "node": "0.12.7"
