@@ -34,3 +34,4 @@ To set up mongodb:
   - Add db credentials/URI to your .env file to test locally
 - Setup and add Mongoose to your webapp
   - (http://mongoosejs.com/docs/index.html)
+- Take a look at index.js to see how to connect and setup your database
