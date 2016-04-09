@@ -1,6 +1,6 @@
 # DemoWebApp
 
-Check it out at: http://hs-mongodb-demo.herokuapp.com/
+Check it out at: https://quiet-scrubland-47674.herokuapp.com/
 
 Before starting: 
 - create Heroku account
