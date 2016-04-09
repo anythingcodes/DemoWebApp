@@ -19,17 +19,20 @@
           Post messages for your friends to see
         </h2>
 
-        <form name="message-form">
+        <form method="post" action="/">
           <div class="form-group">
-            <input type="text" class="form-control message-input" id="message" placeholder="What would you like to say?" maxlength="500" />
+            <input type="text" name="message" class="form-control message-input" id="message" placeholder="What would you like to say?" maxlength="500" />
             <button type="submit" class="btn btn-default message-submit">Post</button>
           </div>
         </form>
 
         <div class="posted-messages">
-          <div class="single-message">
-            Hello!! nice to meet you!!
-          </div>
+          <% for(var i=0; i<messages.length; i++) {%>
+            <div class="single-message">
+              <%= messages[i].messageText %>
+            </div>
+        <% } %>
+
         </div>
       </div>
     </div>

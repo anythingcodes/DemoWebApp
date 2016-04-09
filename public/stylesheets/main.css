@@ -35,11 +35,12 @@
 }
 
 .posted-messages {
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
   .single-message {
     border-radius: 25px;
-    border: 2px solid black;
+    border: 2px solid #333;
     padding: 20px;
+    margin-top: 25px;
   }
