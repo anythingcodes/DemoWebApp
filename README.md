@@ -12,14 +12,10 @@ Before starting:
 
 To set up and run:
 
-<<<<<<< HEAD
 1. Make a copy of my existing project on github
-  - Fork the project at https://github.com/zsobin/DemoWebApp.git
-=======
-- fork project at https://github.com/allivent/DemoWebApp.git
->>>>>>> origin/master
+  - Fork the project t https://github.com/allivent/DemoWebApp.git
 
-2. Bring your new copy onto your computer from github 
+2. Bring your new copy onto your computer from github
   - `cd ~/Desktop`
   - `git clone https://github.com/YourUserName/DemoWebApp.git`
   - `cd DemoWebApp`
@@ -29,7 +25,6 @@ To set up and run:
   - `heroku login`
   - `heroku create`
 
-<<<<<<< HEAD
 4. Send the heroku project to heroku’s servers and view it online
   - `git push heroku master`
   - `heroku open`
@@ -38,7 +33,7 @@ To set up and run:
   - `npm install`
   - `heroku local web`
   - check out http://localhost:5000
-=======
+
 To set up mongodb:
 
 - Add mLab MongoDB Sandbox to Heroku
@@ -47,4 +42,3 @@ To set up mongodb:
 - Setup and add Mongoose to your webapp
   - (http://mongoosejs.com/docs/index.html)
 - Take a look at index.js to see how to connect and setup your database
->>>>>>> origin/master
