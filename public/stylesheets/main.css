@@ -1,5 +1,5 @@
 .jumbotron {
-  background: #532F8C;
+  background: #826180;
   color: white;
   padding-bottom: 80px; }
   .jumbotron .btn-primary {
@@ -25,3 +25,21 @@
     .jumbotron .lang-logo img {
       max-width: 100%; }
 
+.message-input {
+  display: inline;
+  width: 70%;
+}
+
+.message-submit {
+  width: 100px;
+}
+
+.posted-messages {
+  padding-top: 50px;
+}
+
+  .single-message {
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+  }

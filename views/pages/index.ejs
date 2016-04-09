@@ -7,23 +7,30 @@
 <body>
   <div class="jumbotron text-center">
     <div class="container">
-      <h1>You did it!</h1>
+      <h1>Messages</h1>
     </div>
   </div>
   <div class="container">
     <hr>
     <div class="row">
-      <div class="col-md-6">
-        <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-        <ul>
-          <li>This app was deployed to Heroku using Git.</li>
-        </ul>
-      </div>
-      <div class="col-md-6">
-        <h3><span class="glyphicon glyphicon-link"></span> Hey there</h3>
-        <ul>
-          <li> List 2 </li>
-        </ul>
+      <div class="col-md-12">
+        <h2>
+          <span class="glyphicon glyphicon-heart-empty"></span>
+          Post messages for your friends to see
+        </h2>
+
+        <form name="message-form">
+          <div class="form-group">
+            <input type="text" class="form-control message-input" id="message" placeholder="What would you like to say?" maxlength="500" />
+            <button type="submit" class="btn btn-default message-submit">Post</button>
+          </div>
+        </form>
+
+        <div class="posted-messages">
+          <div class="single-message">
+            Hello!! nice to meet you!!
+          </div>
+        </div>
       </div>
     </div>
   </div>

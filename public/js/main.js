@@ -1,1 +1,1 @@
-console.log("hi");
+console.log("Let's make a database!");
